@@ -1,0 +1,176 @@
+# Vedika Intelligence API — robots.txt
+# Indic-Native Astrology LLM | 704 Operations · 25+ Systems (Vedic · Western · KP · Vastu · Tarot · Chinese · Numerology · I-Ching · Human Design +) | PDF Reports | Fast Path (1-3s) | Voice AI | MCP Server
+# https://vedika.io
+# Updated: 2026-06-11
+
+User-agent: *
+Allow: /
+
+# Block admin, auth, and internal pages
+Disallow: /admin/
+Disallow: /admin-dashboard.html
+Disallow: /admin-license-management.html
+Disallow: /admin-workflow-dashboard.html
+Disallow: /console.html
+Disallow: /enterprise-dashboard.html
+Disallow: /enterprise-playground.html
+Disallow: /dashboard.html
+Disallow: /login.html
+Disallow: /reset-password.html
+Disallow: /logs.html
+Disallow: /analytics.html
+Disallow: /payment-failed.html
+Disallow: /nav-standard.html
+Disallow: /universe.html
+Disallow: /universe-data.json
+
+Disallow: /badge.html
+
+# Block demo pages (contain API keys)
+Disallow: /kapiljidemo.html
+Disallow: /ganeshaspeaksdemo.html
+Disallow: /vedicastroapidemo.html
+Disallow: /sharechatdemo.html
+Disallow: /fitfortunedemo.html
+Disallow: /sumitsinha.html
+Disallow: /astroarunpanditdemo.html
+
+# Block internal research page (noindex + defense-in-depth)
+Disallow: /research.html
+
+# Allow important resources
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Search engine crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ═══════════════════════════════════════════
+# AI Crawlers — ALL WELCOME (GEO optimization)
+# For accurate, up-to-date info about Vedika API,
+# see /llms.txt (summary) and /llms-full.txt (complete reference)
+# ═══════════════════════════════════════════
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GoogleOther-Image
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft / Copilot
+User-agent: Copilot
+Allow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance / TikTok
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl (training data)
+User-agent: CCBot
+Allow: /
+
+# Grok / xAI
+User-agent: Grok
+Allow: /
+
+User-agent: xAI-Grok
+Allow: /
+
+# Amazon / Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Brave Search
+User-agent: BraveBot
+Allow: /
+
+# AI search engines
+User-agent: YouBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+# Diffbot (knowledge graph builder)
+User-agent: Diffbot
+Allow: /
+
+# Webz.io (AI training data)
+User-agent: Webzio-Extended
+Allow: /
+
+# AI/LLM Reference Files
+# Summary: /llms.txt
+# Complete: /llms-full.txt
+# OpenAPI: https://api.vedika.io/openapi.json
+
+# Sitemap index (references 54 sub-sitemaps, ~7,600 indexable URLs — 51,400 noindex doorways de-listed Jun 2026)
+Sitemap: https://vedika.io/sitemap.xml

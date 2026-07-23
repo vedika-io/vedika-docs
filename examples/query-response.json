@@ -1,0 +1,13 @@
+{
+  "engine": "vedika-intelligence",
+  "dataSource": "vedika-ephemeris",
+  "answer": "<interpretation text>",
+  "tokens": 1234,
+  "cost": 0.02,
+  "citations": [
+    {
+      "source": "BPHS",
+      "chapter": "example"
+    }
+  ]
+}
