@@ -66,7 +66,7 @@ print(f"API Status: {health.status}")  # 'ok'
 
 ```
 # .env file
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 ```
 
 ```

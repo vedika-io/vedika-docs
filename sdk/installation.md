@@ -95,7 +95,7 @@ The package is built for bundlers and Node (`npm install @vedika-io/sdk`); it do
 The SDK automatically reads from environment variables:
 ```
 # .env file
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 VEDIKA_BASE_URL=https://api.vedika.io  # Optional, defaults to production
 VEDIKA_TIMEOUT=30000                    # Optional, milliseconds
 VEDIKA_MAX_RETRIES=3                    # Optional

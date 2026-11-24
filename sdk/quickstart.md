@@ -119,7 +119,7 @@ The AI endpoint is what makes Vedika unique — ask any astrology question in na
 ```
 curl -X POST https://api.vedika.io/api/v1/astrology/query \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer vk_live_YOUR_KEY" \
+  -H "Authorization: Bearer $VEDIKA_API_KEY" \
   -d '{
     "question": "What are my career prospects?",
     "birthDetails": {

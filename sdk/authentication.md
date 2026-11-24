@@ -25,7 +25,7 @@ import { VedikaClient } from '@vedika-io/sdk';
 
 // Option 1: Pass API key directly
 const vedika = new VedikaClient({
-  apiKey: 'vk_live_abc123xyz789'
+  apiKey: 'YOUR_API_KEY'
 });
 
 // Option 2: Use environment variable (recommended)
@@ -43,7 +43,7 @@ const vedika = new VedikaClient({
 Create a `.env` file in your project root:
 ```
 # .env
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 
 # Optional configuration
 VEDIKA_BASE_URL=https://api.vedika.io  # Default
@@ -69,7 +69,7 @@ const vedika = new VedikaClient(); // Reads VEDIKA_API_KEY automatically
 
 ```
 // .env.local
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 
 // pages/api/astrology.js or app/api/astrology/route.ts
 import { VedikaClient } from '@vedika-io/sdk';

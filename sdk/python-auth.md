@@ -14,7 +14,7 @@ API key management in Python
 from vedika import VedikaClient
 
 # Pass API key directly
-client = VedikaClient(api_key="vk_live_abc123xyz789")
+client = VedikaClient(api_key="YOUR_API_KEY")
 ```
 
 Never hardcode API keys in source code. Use environment variables instead.
@@ -23,7 +23,7 @@ Never hardcode API keys in source code. Use environment variables instead.
 
 ```
 # .env file
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 ```
 
 ```
