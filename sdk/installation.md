@@ -8,7 +8,7 @@ canonical: https://vedika.io/docs/sdk/installation
 
 @vedika-io/sdk
 
-**v2.4.0  Last updated: January 2026
+**v3.3.0  Last updated: November 2026
 
 ## Quick Install
 
@@ -43,7 +43,7 @@ After installation, verify the SDK is working:
 import { VedikaClient } from '@vedika-io/sdk';
 
 // Check version
-console.log(VedikaClient.VERSION); // '2.4.0'
+console.log(VedikaClient.VERSION);
 
 // Initialize client
 const vedika = new VedikaClient({
@@ -84,28 +84,9 @@ const chart: BirthChart = await vedika.birthChart({
 
 **Recommended tsconfig.json settings:** `"moduleResolution": "bundler"` or `"node16"`
 
-## CDN Usage (Browser)
+## Browser Usage
 
-For browser-only projects without a build step:
-```
-<!-- UMD Bundle -->
-<script src="https://unpkg.com/@vedika-io/sdk@2.4.0/dist/vedika.umd.js"></script>
-<script>
-  const vedika = new Vedika.Client({
-    apiKey: 'your-api-key'
-  });
-
-  vedika.panchang({ date: '2026-01-07' })
-    .then(data => console.log(data));
-</script>
-
-<!-- ES Module -->
-<script type="module">
-  import { VedikaClient } from 'https://unpkg.com/@vedika-io/sdk@2.4.0/dist/vedika.esm.js';
-
-  const vedika = new VedikaClient({ apiKey: 'your-api-key' });
-</script>
-```
+The package is built for bundlers and Node (`npm install @vedika-io/sdk`); it does not ship a prebuilt browser script, so there is no script-tag or CDN install. For a browser app, import it through your bundler.
 
 **Security Warning:** Never expose your API key in client-side code for production apps. Use a backend proxy instead.
 
@@ -114,7 +95,7 @@ For browser-only projects without a build step:
 The SDK automatically reads from environment variables:
 ```
 # .env file
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 VEDIKA_BASE_URL=https://api.vedika.io  # Optional, defaults to production
 VEDIKA_TIMEOUT=30000                    # Optional, milliseconds
 VEDIKA_MAX_RETRIES=3                    # Optional

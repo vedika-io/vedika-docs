@@ -145,19 +145,7 @@ Current Antardasha: Mercury
 
 Birth charts in depth
 
-](https://vedika.io/docs/sdk/python-charts) [ **
-
-#### Async Usage
-
-asyncio support
-
-](https://vedika.io/docs/sdk/python-async) [ **
-
-#### CLI Tool
-
-Command line usage
-
-](https://vedika.io/docs/sdk/python-cli)
+](https://vedika.io/docs/sdk/python-charts)
 
 ---
 _Full page (always current): [https://vedika.io/docs/sdk/python-quickstart](https://vedika.io/docs/sdk/python-quickstart) · [Vedika docs](https://vedika.io/docs)_

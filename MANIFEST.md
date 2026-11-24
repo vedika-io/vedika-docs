@@ -1,6 +1,6 @@
 # MANIFEST — public file → source provenance
 
-Every file in this repo and where it came from. Nothing here originates from an internal tree (see LEAK-SCAN-REPORT.md deny-tripwire).
+Every file in this repo and where it came from. Nothing here originates from an internal tree.
 
 | Public file | Source |
 | --- | --- |
@@ -82,10 +82,8 @@ Every file in this repo and where it came from. Nothing here originates from an 
 | `sdk/nodejs-integration.md` | https://vedika.io/docs/sdk/nodejs-integration |
 | `sdk/overview.md` | https://vedika.io/sdks |
 | `sdk/panchang.md` | https://vedika.io/docs/sdk/panchang |
-| `sdk/python-async.md` | https://vedika.io/docs/sdk/python-async |
 | `sdk/python-auth.md` | https://vedika.io/docs/sdk/python-auth |
 | `sdk/python-charts.md` | https://vedika.io/docs/sdk/python-charts |
-| `sdk/python-cli.md` | https://vedika.io/docs/sdk/python-cli |
 | `sdk/python-install.md` | https://vedika.io/docs/sdk/python-install |
 | `sdk/python-matching.md` | https://vedika.io/docs/sdk/python-matching |
 | `sdk/python-quickstart.md` | https://vedika.io/docs/sdk/python-quickstart |

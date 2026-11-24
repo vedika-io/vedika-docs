@@ -179,13 +179,7 @@ async def batch_charts(birth_data_list):
 
 Marriage compatibility
 
-](https://vedika.io/docs/sdk/python-matching) [ **
-
-#### Async Usage
-
-High-performance batch
-
-](https://vedika.io/docs/sdk/python-async)
+](https://vedika.io/docs/sdk/python-matching)
 
 ---
 _Full page (always current): [https://vedika.io/docs/sdk/python-charts](https://vedika.io/docs/sdk/python-charts) · [Vedika docs](https://vedika.io/docs)_

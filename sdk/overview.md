@@ -293,7 +293,7 @@ curl -X POST "https://api.vedika.io/sandbox/astrology/kundli-matching" \
 ```
 curl -X POST "https://api.vedika.io/api/v1/astrology/query" \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer $VEDIKA_API_KEY" \
   -d '{
     "query": "What does Saturn in 10th house mean for career?",
     "language": "en"
@@ -311,7 +311,7 @@ curl "https://api.vedika.io/sandbox/panchang/today?latitude=28.6139&longitude=77
 ```
 # Replace YOUR_API_KEY with your actual API key from dashboard
 curl -X POST "https://api.vedika.io/v2/astrology/kundli" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer $VEDIKA_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"datetime":"1990-05-15T10:30:00","latitude":28.6139,"longitude":77.2090,"timezone":"+05:30"}'
 ```

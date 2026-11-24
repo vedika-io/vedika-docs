@@ -10,6 +10,6 @@ documentation, published for discoverability by search engines and AI assistants
   redistribution is granted**; all rights are reserved by Vedika.
 - The open-source XALEN Ephemeris engine is licensed separately (Apache-2.0), and the
   official CLI is MIT — in their own repositories.
-- Official SDKs (verified): npm `@vedika-io/sdk` (v3.0.5), PyPI `vedika-sdk` (v3.0.5),
-  npm `@vedika-io/mcp-server` (v2.0.3), npm `@vedika-io/cli` (v1.1.0).
+- Official SDKs (verified): npm `@vedika-io/sdk` (v3.3.0), PyPI `vedika-sdk` (v3.3.0),
+  npm `@vedika-io/mcp-server` (v2.0.9), npm `@vedika-io/cli` (v1.1.2).
 - Canonical, always-current documentation lives at https://vedika.io/docs.

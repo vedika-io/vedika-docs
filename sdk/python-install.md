@@ -62,24 +62,11 @@ health = client.health()
 print(f"API Status: {health.status}")  # 'ok'
 ```
 
-## Optional Dependencies
-
-```
-# For async support
-pip install vedika-sdk[async]
-
-# For CLI tool
-pip install vedika-sdk[cli]
-
-# For all optional features
-pip install vedika-sdk[all]
-```
-
 ## Environment Setup
 
 ```
 # .env file
-VEDIKA_API_KEY=vk_live_abc123xyz789
+VEDIKA_API_KEY=YOUR_API_KEY
 ```
 
 ```
@@ -138,13 +125,7 @@ print(chart.planets)   # IDE knows this is List[Planet]
 
 Your first API call
 
-](https://vedika.io/docs/sdk/python-quickstart) [ **
-
-#### Async Usage
-
-asyncio integration
-
-](https://vedika.io/docs/sdk/python-async)
+](https://vedika.io/docs/sdk/python-quickstart)
 
 ---
 _Full page (always current): [https://vedika.io/docs/sdk/python-install](https://vedika.io/docs/sdk/python-install) · [Vedika docs](https://vedika.io/docs)_

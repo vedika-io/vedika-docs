@@ -276,13 +276,7 @@ class DevelopmentConfig(Config):
 
 Full-stack Django
 
-](https://vedika.io/docs/sdk/django-integration) [ **
-
-#### Async Python
-
-High-performance APIs
-
-](https://vedika.io/docs/sdk/python-async)
+](https://vedika.io/docs/sdk/django-integration)
 
 ---
 _Full page (always current): [https://vedika.io/docs/sdk/flask-integration](https://vedika.io/docs/sdk/flask-integration) · [Vedika docs](https://vedika.io/docs)_

@@ -132,13 +132,13 @@ Set `"speed": "fast"` to use the fast path (Business $120+ only, 1-3 second repl
 ```bash
 # Normal path (all plans, 20-30s deep answer)
 curl -X POST https://api.vedika.io/api/v1/astrology/query \
-  -H "x-api-key: vk_live_YOUR_KEY" \
+  -H "x-api-key: $VEDIKA_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"question":"What does my career look like?","birthDetails":{"datetime":"1995-08-20T09:15:00","latitude":19.076,"longitude":72.8777,"timezone":"+05:30"}}'
 
 # Fast path (Business $120+ only, 1-3s reply, same depth)
 curl -X POST https://api.vedika.io/api/v1/astrology/query \
-  -H "x-api-key: vk_live_YOUR_KEY" \
+  -H "x-api-key: $VEDIKA_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"question":"What does my career look like?","birthDetails":{"datetime":"1995-08-20T09:15:00","latitude":19.076,"longitude":72.8777,"timezone":"+05:30"},"speed":"fast"}'
 ```
