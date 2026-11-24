@@ -285,13 +285,7 @@ class BirthProfileAdmin(admin.ModelAdmin):
 
 Build matrimonial sites
 
-](https://vedika.io/docs/sdk/matching-portal) [ **
-
-#### Async Django
-
-Django Channels
-
-](https://vedika.io/docs/sdk/python-async)
+](https://vedika.io/docs/sdk/matching-portal)
 
 ---
 _Full page (always current): [https://vedika.io/docs/sdk/django-integration](https://vedika.io/docs/sdk/django-integration) · [Vedika docs](https://vedika.io/docs)_

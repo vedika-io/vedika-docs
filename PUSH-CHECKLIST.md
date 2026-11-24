@@ -3,14 +3,14 @@
 Staged locally by the build tooling. Nothing pushed; no GitHub repo exists yet.
 
 1. **Pick a name** (yours to decide) — e.g. `vedika-docs`, `vedika-api-docs`.
-2. **Review `LEAK-SCAN-REPORT.md`** — verdict PASS (tripwire=0, secrets=0, masking=0).
+2. **Scan for leaks** — the one-time scan passed (tripwire=0, secrets=0, masking=0); its report is retired.
 3. **Skim `MANIFEST.md`** — every file traces to a published `vedika.io` URL, `llms.txt`,
    or synthetic construction. Nothing from an internal tree.
 3b. **Content provenance:** prose sourced from local files whose URLs are published;
-    NOT byte-verified against live except two spot-checked pages (LEAK-SCAN §2).
+    NOT byte-verified against live except two spot-checked pages.
     Skim pages vs their `canonical:` URL before publishing.
-3c. **SDK package names were registry-corrected** (LEAK-SCAN §8): `@vedika/sdk`→`@vedika-io/sdk`,
-    `vedika-python`→`vedika-sdk`. Confirm `@vedika-io/cli` and version pins/extras before push.
+3c. **SDK package names were registry-corrected:** `@vedika/sdk`→`@vedika-io/sdk`,
+    `vedika-python`→`vedika-sdk`. Re-check the registries before push.
 4. **License: All Rights Reserved** (decided) — see `NOTICE.md`. No OSI LICENSE file.
 5. **Spot-check volatile claims** in `llms.txt`/`llms-full.txt` (pricing, availability) vs live.
 6. **API spec** — repo links to canonical live `https://api.vedika.io/openapi.json`; do NOT

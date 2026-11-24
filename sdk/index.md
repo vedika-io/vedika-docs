@@ -24,7 +24,7 @@ vedika-sdk on PyPI
 
 `pip install vedika-sdk`
 
-[Quickstart](https://vedika.io/docs/sdk/python-quickstart) | [Auth](https://vedika.io/docs/sdk/python-auth) | [Async](https://vedika.io/docs/sdk/python-async) | [Charts](https://vedika.io/docs/sdk/python-charts)
+[Quickstart](https://vedika.io/docs/sdk/python-quickstart) | [Auth](https://vedika.io/docs/sdk/python-auth) | [Charts](https://vedika.io/docs/sdk/python-charts)
 
 ## All SDK Guides
 
@@ -148,19 +148,7 @@ Birth chart & divisional
 
 Compatibility analysis
 
-](https://vedika.io/docs/sdk/python-matching) [
-
-** Async Support
-
-asyncio & aiohttp patterns
-
-](https://vedika.io/docs/sdk/python-async) [
-
-** CLI Tool
-
-Command-line interface
-
-](https://vedika.io/docs/sdk/python-cli)
+](https://vedika.io/docs/sdk/python-matching)
 
 ### Framework Integrations
 
